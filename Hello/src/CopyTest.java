@@ -7,6 +7,8 @@ public class CopyTest {
 		
 		System.out.println("array a : " + System.identityHashCode(a));
 		System.out.println("array b : " + System.identityHashCode(b));
+		System.out.println("array a : " + a);
+		System.out.println("array b : " + b);
 		System.out.println();
 		
 		int aa[] = {1, 2, 3};
@@ -14,6 +16,8 @@ public class CopyTest {
 		
 		System.out.println("Array aa : " + System.identityHashCode(aa));
 		System.out.println("Array bb : " + System.identityHashCode(bb));
+		System.out.println("array aa : " + aa);
+		System.out.println("array bb : " + bb);
 		System.out.println();
 		
 		int aaa[] = {1, 2, 3};
@@ -23,6 +27,8 @@ public class CopyTest {
 		
 		System.out.println("Array aaa : " + System.identityHashCode(aaa));
 		System.out.println("Array bbb : " + System.identityHashCode(bbb));
+		System.out.println("array aaa : " + aaa);
+		System.out.println("array bbb : " + bbb);
 		System.out.println();
 		
 		int aaaa[] = {1, 2, 3};
@@ -30,7 +36,8 @@ public class CopyTest {
 		
 		System.out.println("Array aaaa : " + System.identityHashCode(aaaa));
 		System.out.println("Array bbbb : " + System.identityHashCode(bbbb));
-		
+		System.out.println("array aaaa : " + aaaa);
+		System.out.println("array bbbb : " + bbbb);
 	}
 
 }
